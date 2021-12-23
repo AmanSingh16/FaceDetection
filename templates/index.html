@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>Face Detection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body style="background-color:black">
+    <div id="maintext" style="position:absolute; margin:auto; width:700px; height:200px; text-align:center; top: 25px; bottom: 150; left: 0; right: 0;">
+        <h1 class="text-light mb-2"> Face Detection </h1>
+        <h4 class="text-light">Detect faces in an image!</h4>
+
+        {% if res.MSG == "FAIL" %}
+        <br><br>
+        <h3 class="text-light mb-2"> Some error occured, please try again with correct image URL? </h3>
+
+        {% else %}
+        <br>
+        <p class="text-light">Enter image URL:</p>
+        <form method=post enctype=multipart/form-data>
+            <p class="text-light">
+            <input type=text name=url>
+            <input type=submit value=Submit>
+            {% if res.PATH != 0 %}
+                <div class="item" style="position:absolute; margin:auto; width:700px; height:200px; text-align:center;">
+                    <img src="{{ res.PATH }}" alt="IMAGE!" class="center" height="450" width="450"><br><br>
+                    <h6 class="text-light"> The faces have been detected! </h6>        
+                </div>
+            {% endif %}
+            </p>
+        </form>
+        {% endif %}
+
+    </div>
+</body>
+
+</html>
