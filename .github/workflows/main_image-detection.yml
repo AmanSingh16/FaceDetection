@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Image-Detection'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FC4090200A694ED08066AB22D7E2D2A8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5737D9A66B024013A120B49C30FF3343 }}
