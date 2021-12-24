@@ -20,9 +20,12 @@ Face detection improves surveillance efforts and helps track down criminals and 
 
 * Deployed App URL: http://imgfacedetection.azurewebsites.net
 
-* Input image URL: https://images.squarespace-cdn.com/content/v1/5cf4ed908cd0790001863212/1559648487725-BZ1EL980HWVIULZRNPG7/PB-3Men.jpg?format=1000w
+* Input image URL 1: https://images.squarespace-cdn.com/content/v1/5cf4ed908cd0790001863212/1559648487725-BZ1EL980HWVIULZRNPG7/PB-3Men.jpg?format=1000w
 
-                 : https://vice-images.vice.com/images/content-images/2016/02/18/a-deep-dive-into-the-new-england-football-team-official-euro-2016-suit-photos-206-body-image-1455799528.jpg?output-quality=75&resize=800:* 
+* Input image URL 2: https://vice-images.vice.com/images/content-images/2016/02/18/a-deep-dive-into-the-new-england-football-team-official-euro-2016-suit-photos-206-body-image-1455799528.jpg?output-quality=75&resize=800
+
+* Working of App URL: https://drive.google.com/file/d/1PCAXR38ARUtKrT2gxn3vwB_Y9nAZ6iNm/view?usp=sharing
+
 
 ## Output Screens
 
